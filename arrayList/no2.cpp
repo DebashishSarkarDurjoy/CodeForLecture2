@@ -19,7 +19,7 @@ void funcExp(Type list[], int size)
 }
 
 int main() {
-    string strList[] = {"One", "Two", "Three", "Four", "Five", "Six"};
+    int strList[] = {9,1,5,7,3,7,0,1,9,10};
 
-    funcExp(strList, "Seven");
+    funcExp(strList, 10);
 }

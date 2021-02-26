@@ -17,8 +17,7 @@ template <class elemType>
 class arrayListType
 {
 public:
-    const arrayListType<elemType>& operator=
-                         (const arrayListType<elemType>&);
+    const arrayListType<elemType>& operator=(const arrayListType<elemType>&);
     bool isEmpty() const;
     bool isFull() const;
     int listSize() const;
